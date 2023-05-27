@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  animation: bounce 0.4s steps(5) infinite;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(-90px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
